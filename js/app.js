@@ -20,6 +20,7 @@ require.config({
         tpl         :   '../../templates',
         cssFldr     :   '../../styles/css'
     },
+    waitSeconds: 30,
     shim: {
         'underscore': {
             deps: [ 'jquery'],
